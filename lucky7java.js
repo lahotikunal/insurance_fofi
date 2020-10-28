@@ -102,6 +102,10 @@ rules.addEventListener('click', function() {
     //https://lahotikunal.github.io/introduction_page/
   {location.href = "https://lahotikunal.github.io/introduction_page/";}
 });
+
+next_game.addEventListener('click',function(){
+  {location.href = "https://lahotikunal.github.io/insurance_sty/";}
+});
 //rules
 
 button.addEventListener('click',function()
