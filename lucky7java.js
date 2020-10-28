@@ -153,7 +153,7 @@ button.addEventListener('click',function()
     
               if (window.confirm('If you click "ok" you would be redirected  ')) 
                     {
-                                      window.location.href='https://lahotikunal.github.io/withinsurance45/';
+                                      window.location.href='https://lahotikunal.github.io/with-insurance-45/';
                     }
       }
       else  {
