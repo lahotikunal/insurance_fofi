@@ -104,7 +104,8 @@ rules.addEventListener('click', function() {
 });
 
 next_game.addEventListener('click',function(){
-  {location.href = "https://lahotikunal.github.io/insurance_sty/";}
+  if(potValue<0)
+    {location.href = "https://lahotikunal.github.io/insurance_sty/";}
 });
 //rules
 
