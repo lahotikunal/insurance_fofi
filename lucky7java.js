@@ -3,7 +3,7 @@ var diceValue1,
 var diceValue,
     potValue,
     radioValue = '=7',
-    bidValue = 30;
+    bidValue = 3000000;
 
 function myRadioValue(dice) {
     radioValue = dice;
@@ -141,7 +141,7 @@ button.addEventListener('click',function()
              potValue -= bidValue;
            }
         }
-  if(potValue<=30){
+  if(potValue<=3000000){
     
       pass=prompt('The insurnce contracted is of value 20 Lakhs, do you need insurance y/n ,  ');
       if(pass=='y'){
